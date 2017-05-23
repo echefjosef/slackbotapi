@@ -1,8 +1,8 @@
 {
   "name": "slackbotapi",
-  "version": "1.3.7",
+  "version": "1.3.9",
   "description": "a node.js API using Slack their RTM API",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,12 +19,12 @@
     "bot"
   ],
   "dependencies": {
-    "ws": "*",
-    "request": "*",
-    "jethro": "*",
-    "eventemitter3": "*"
+    "eventemitter3": "^1.2.0",
+    "jethro": "^2.7.1",
+    "request": "^2.79.0",
+    "ws": "^1.1.1"
   },
-  "author": "xBytez <me@xbytez.eu>",
+  "author": "xBytez <me@xbytez.io>",
   "contributors": [
     "Samuel Mills <spam.mills@hotmail.com>",
     "Igor Antun <igorantunc@hotmail.com>"
